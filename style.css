@@ -54,7 +54,7 @@ a {
 /*Menu*/
 
 .menu-bg {
-    background-color: var(--cor02);
+    background-color: var(--cor05);
 }
 
 .menu {
@@ -88,8 +88,46 @@ a {
 }
 
 .menu-nav a:hover {
-    color: var(--cor01);
+    color: rgb(235, 219, 219);
     font-weight: bold;
+}
+
+/*menu-bg-mobile*/
+.menu-bg-mobile {
+    background-color: var(--cor05);
+    display: none;
+}
+
+.menu-nav-mobile {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-nav-mobile li{
+    padding: 8px;
+}
+
+.menu-nav-mobile a{
+    color: #fff;
+    padding: 8px;
+}
+
+.menu-nav-mobile a:hover {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 713px) {
+    .menu-bg-mobile {
+        background-color: var(--cor04);
+        display: block;
+    }
+    .menu-nav {
+        display: none;
+    }
+    .nav-bar {
+        display: block;
+    }
+
 }
 
 /*Sobre*/
@@ -131,13 +169,20 @@ a {
 .produtos {
     max-width: 960px;
     margin: 20px auto;
+    
+}
+.produtos h1 {
+    margin: 0 9px;
 }
 .produtos-container {
     margin: 0 9px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+}
 
+.produtos-container h2 {
+    font-weight: 400;
     
 }
 
@@ -145,6 +190,42 @@ a {
     flex: 1;
     width: 280px;
     height: 200px;
+}
+
+/*precos*/
+.precos {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.precos h1 {
+    margin: 0 9px;
+}
+
+.precos-container {
+    margin: 0 9px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pizza-preco {
+    margin: 5px;
+    width: 18em;
+    padding: 20px;
+}
+
+.pizza-preco > h2 {
+    font-weight: 300;
+}
+
+.pizza-preco > h3 {
+    font-weight: bold;
+    margin: 2px;
+    font-size: 30pt;
+    color: #9c9191;
+    
 }
 
 footer {
