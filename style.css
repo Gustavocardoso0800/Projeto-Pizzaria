@@ -228,11 +228,28 @@ a {
     
 }
 
+/*Contato*/
+.contato {
+    background-color: rgb(240, 240, 240);
+}
+
+.contato-container {
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px 0px 5px 0px;
+}
+.contato-item:hover {
+    opacity: 0.9;
+}
+
+/*Footer*/
 footer {
     background-color: var(--cor01);
     text-align: center;
     color: #fff;
-    margin-top: 5px;
     padding: 5px;
 }
 
