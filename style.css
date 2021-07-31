@@ -17,6 +17,7 @@
 body {
     color: #353434;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 ul {
@@ -74,6 +75,10 @@ a {
     font-size: 2.1em;
     font-weight: bold;
     margin: 0 10px;
+}
+
+.menu-logo a {
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.459);
 }
 
 .menu-nav ul{
@@ -230,7 +235,7 @@ a {
 
 /*Contato*/
 .contato {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(253, 248, 248);
 }
 
 .contato-container {
@@ -243,6 +248,63 @@ a {
 }
 .contato-item:hover {
     opacity: 0.9;
+}
+
+/*Email*/
+.email {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--cor03);
+}
+.input {
+    padding: 10px;
+    border:none;
+    outline: none;
+    color: #222222;
+    width: 17.5em;
+    height: 2.5em;
+    font-size: 11pt;
+    border-radius: 4px;
+    margin: 2.5px;
+}
+
+.h1-email {
+    color: #fff;
+    text-align: center;     
+}
+
+.form-textarea {
+    padding: 10px;
+    border:none;
+    outline: none;
+    color: #222222;
+    width: 17.5em;
+    height: 4.375em;
+    font-size: 11pt;
+    border-radius: 4px;
+    margin: 2.5px;
+    resize: none;
+  }
+
+.input-submit {
+    background-color: var(--cor05);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    width: 17.5em;
+    height: 2.5em;
+    font-size: 11pt;
+    transition: 1s;
+    
+}
+
+.input-submit:hover{
+    
+    background-color: var(--cor04);
 }
 
 /*Footer*/
